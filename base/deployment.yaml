@@ -32,7 +32,7 @@ spec:
           value: items
         ports:
         - containerPort: 3306
-          name: mysql
+          name: cluster-mysql
         volumeMounts:
           - mountPath: "/var/lib/mysql"
             name: db-volume
